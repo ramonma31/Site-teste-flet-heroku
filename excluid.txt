@@ -1,0 +1,27 @@
+            controls=[
+                Container(
+                    content=Column(
+                        controls=[
+                            Text("")
+                        ]
+                    ),
+                    margin=margin.only(20, 0, 20, 10)
+                ),
+                Container(
+                    content=Column(
+                        controls=[
+                            Text("coluna2")
+                        ]
+                    ),
+                    margin=margin.only(10, 0, 20, 10)
+                ),
+                Container(
+                    content=Column(
+                        controls=[
+                            Text("coluna3")
+                        ]
+                    ),
+                    margin=margin.only(5, 0, 20, 10)
+                ),
+            ],
+            alignment=MainAxisAlignment.SPACE_BETWEEN,
