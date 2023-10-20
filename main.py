@@ -221,4 +221,5 @@ def main(page: Page):
     page.update()
 
 
-app(target=main, assets_dir="./assets", view="web_browser")
+if __name__ == "__main__":
+    app(target=main, view="web_browser", port=5000, host="localhost")
